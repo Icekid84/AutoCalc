@@ -1,4 +1,4 @@
-$(document).ready(function() {
+(function($) {
   $.fn.conditionize = function(options){ 
     
      var settings = $.extend({
